@@ -10,17 +10,12 @@ python-gstreamer and python-gobject
 
 ## Commands
 
-### Start:
-
-python tvp.py -i /path/to/file.mp4 -a 0.5
-
-### Increase opacity -> press 'i' when video is playing
-
-### Decrease opacity -> press 'd' when video is playing
-
-### Play video to it's full size -> press 'f' when video is playing
-
-### Quit -> press 'q' when video is playing
+* Start:
+  python tvp.py -i /path/to/file.mp4 -a 0.5
+* Increase opacity -> press 'i' when video is playing
+* Decrease opacity -> press 'd' when video is playing
+* Play video to it's full size -> press 'f' when video is playing
+* Quit -> press 'q' when video is playing
 
 ## To do:
 
