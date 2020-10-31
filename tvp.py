@@ -58,6 +58,7 @@ if __name__ == "__main__":
     window.wait_visibility(window)
     window.wm_attributes('-alpha', alpha)
     window.wm_attributes('-topmost', True)
+    window.wm_attributes('-type', 'splash')
     # window.wm_attributes('-type', 'dock')
     window.geometry("640x480")
     window.bind("<Key>", on_key)
