@@ -54,7 +54,7 @@ if __name__ == "__main__":
     alpha = args.alpha
 
     window = tkinter.Tk()
-    window.title("Transparent video")
+    
     window.wait_visibility(window)
     window.wm_attributes('-alpha', alpha)
     window.wm_attributes('-topmost', True)
